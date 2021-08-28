@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('BUILD') {
+    stage('BUILD FOLDER') {
       steps {
         echo 'ITS THE BUILD PART'
       }
